@@ -1,0 +1,31 @@
+
+#logo {
+    background-color: greenyellow;
+    padding: 20px;
+    border-radius: 10px;
+    font-style: italic;
+}
+section {
+    padding: 20px;
+    margin-top: 10px;
+}
+section h2 {
+    border-bottom: 2px solid greenyellow;
+}
+
+#form {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+fieldset {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+}
+
+footer {
+    background-color: greenyellow;
+}

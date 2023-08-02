@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>TravelIn | Reserva </title>
+</head>
+<body class="bg-body-tertiary">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <h4 class="text-uppercase fw-semibold font-monospace" href="/index.html" id="logo">TravelIn</h4>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html">Início</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Serviços
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Passagens Aereas</a></li>
+                      <li><a class="dropdown-item" href="#">Reserva de Hotel</a></li>
+                      <li><a class="dropdown-item" href="#">Aluguel de Carro</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Quem Somos</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="pesquise aqui" aria-label="pesquisa">
+                  <button class="btn btn-outline-success" type="submit">Procurar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section class="container-fluid" id="section1-serviços">
+        <h2>Como funciona a nossa plataforma</h2>
+        <p>Você escolhe o seu serviço, preenche o formulário e aguarda o nosso retorno com tudo pronto pra sua viagem !!!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum soluta cum atque voluptates sunt ipsa iure corrupti? Repellat tempora vero, quisquam sequi totam minima, odio adipisci officia deleniti in tempore!</p>
+    </section>  
+
+    <section class="container-fluid">
+        <h2>Formulário</h2>
+        <div class="container-fluid">
+            <form method="GET" action="" id="form">
+
+                <fieldset>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome Completo" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Observacao</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Serviços desejados</legend>
+                    <label for="passagens">
+                        <input type="checkbox" name="passagens" id="passagens" value="Passagens">Comprar Passagem
+                    </label>
+                    <label for="hospedagem">
+                        <input type="checkbox" name="hospedagem" id="hospedagem" value="Hospedagem">Hospedagem
+                    </label>
+                    <label for="veiculos">
+                        <input type="checkbox" name="veiculos" id="veiculos" value="Veiculos">Alugar veículo
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Formas de Pagamento</legend>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        Credito
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                        Boleto
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                        Pix
+                        </label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Prazo de pagamento</legend>
+                    <div class="input-group mb-3">
+                        <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                        <select class="form-select" id="inputGroupSelect01">
+                        <option selected>Escolha uma opção</option>
+                        <option value="1">Opção 1</option>
+                        <option value="2">Opção 2</option>
+                        <option value="3">Opção 3</option>
+                        </select>
+                    </div>
+                </fieldset>''
+
+                <button type="button" class="btn btn-success">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <p class="p-3 mb-2 bg-body-secondary text-center fw-medium">Para uma melhor experiência, nos acompanhe em nossas redes sociais</p>
+    </section>
+
+    <footer class="text-center">Copyright 2023</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
